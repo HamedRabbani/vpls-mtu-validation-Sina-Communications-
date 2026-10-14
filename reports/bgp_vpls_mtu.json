@@ -1,0 +1,415 @@
+{
+  "summary": {
+    "bgp_updates": 26,
+    "vpls_related_updates": 18,
+    "advertised_mtu_values": [
+      1500,
+      9000
+    ],
+    "updates_with_parse_errors": 0
+  },
+  "vpls_updates": [
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:1"
+      ],
+      "advertised_mtu_values": [],
+      "nlri_routes": [],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:2"
+      ],
+      "advertised_mtu_values": [],
+      "nlri_routes": [],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:4"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:4",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52480,
+          "raw": "001100000040000000040002000100400cd001"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:4"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:4",
+          "ve_id": 3,
+          "ve_block_offset": 1,
+          "ve_block_size": 10,
+          "label_base": 16,
+          "raw": "0011000000400000000400030001000a000101"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:5"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:5",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52544,
+          "raw": "001100000040000000050002000100400cd401"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:5"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:5",
+          "ve_id": 3,
+          "ve_block_offset": 1,
+          "ve_block_size": 10,
+          "label_base": 26,
+          "raw": "0011000000400000000500030001000a0001a1"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:6"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:6",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52736,
+          "raw": "001100000040000000060002000100400ce001"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:7"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:7",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52800,
+          "raw": "001100000040000000070002000100400ce401"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:4"
+      ],
+      "advertised_mtu_values": [
+        9000
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:4",
+          "ve_id": 3,
+          "ve_block_offset": 1,
+          "ve_block_size": 10,
+          "label_base": 16,
+          "raw": "0011000000400000000400030001000a000101"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:4"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:4",
+          "ve_id": 3,
+          "ve_block_offset": 1,
+          "ve_block_size": 10,
+          "label_base": 16,
+          "raw": "0011000000400000000400030001000a000101"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:1"
+      ],
+      "advertised_mtu_values": [],
+      "nlri_routes": [],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:2"
+      ],
+      "advertised_mtu_values": [],
+      "nlri_routes": [],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:4"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:4",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52480,
+          "raw": "001100000040000000040002000100400cd001"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:5"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:5",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52544,
+          "raw": "001100000040000000050002000100400cd401"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:6"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:6",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52736,
+          "raw": "001100000040000000060002000100400ce001"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:7"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:7",
+          "ve_id": 2,
+          "ve_block_offset": 1,
+          "ve_block_size": 64,
+          "label_base": 52800,
+          "raw": "001100000040000000070002000100400ce401"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:4"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:4",
+          "ve_id": 3,
+          "ve_block_offset": 1,
+          "ve_block_size": 10,
+          "label_base": 16,
+          "raw": "0011000000400000000400030001000a000101"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    },
+    {
+      "source": "20.64.64.11:179",
+      "destination": "20.64.64.18:16115",
+      "route_targets": [
+        "64:5"
+      ],
+      "advertised_mtu_values": [
+        1500
+      ],
+      "nlri_routes": [
+        {
+          "length_bits": 136,
+          "length_bytes": 17,
+          "length_encoding": "two-byte",
+          "route_distinguisher": "64:5",
+          "ve_id": 3,
+          "ve_block_offset": 1,
+          "ve_block_size": 10,
+          "label_base": 26,
+          "raw": "0011000000400000000500030001000a0001a1"
+        }
+      ],
+      "parse_errors": [],
+      "parse_warnings": []
+    }
+  ],
+  "limitations": [
+    "TCP reassembly is basic and may not handle every retransmission or overlap.",
+    "Capture gaps may cause BGP messages to be missed.",
+    "Only IPv4/TCP traffic involving port 179 is analyzed.",
+    "The parser supports the NLRI length encodings described in its decoder; verify them against the capture and protocol specification.",
+    "Advertised Layer-2 MTU does not prove the operational service MTU.",
+    "Confirm the operational MTU using both PE configurations and service state."
+  ]
+}
